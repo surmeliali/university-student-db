@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<!--Ali Surmeli-->
+<!--Update a Record in a Table-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Update a Record in a Table</title>
+    <link rel="stylesheet" href="../../css/style.css" />
+  </head>
+  <body>
+    <form method="post" action="../../php/php_Search/prof_searchData/prof_selectAllQuery.php">
+      <fieldset class="container">
+        <legend>Display All Professors</legend>
+        <br />
+        <br />
+        <button id="submit" > SUBMIT </button>
+      </fieldset>
+    </form>
+    <br />
+    <br />
+    <form method="post" action="../../php/php_Search/prof_searchData/prof_selectAllQuery.php">
+      <fieldset class="container">
+        <legend>Display Professors whose name starts with</legend>
+        <label>Student Name Starts with</label>
+        <input type="text" name="sname" /> <br />
+        <br />
+        <button id="submit" > SUBMIT </button>
+      </fieldset>
+    </form>
+
+    <br />
+    <br />
+    <form method="post" action="../../php/php_Search/prof_searchData/prof_selectAllQuery.php">
+      <fieldset class="container">
+        <legend>Display Professors From a Specific Department</legend>
+        <label>Department Name</label> <input type="text" name="dept" /> <br />
+        <br />
+        <button id="submit" > SUBMIT </button>
+      </fieldset>
+    </form>
+    <a href='../../index.html'>Back to the Homepage</a>
+  </body>
+</html>

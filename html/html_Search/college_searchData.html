@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<!--Ali Surmeli-->
+<!--Colleges/Universities Database Search-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Search in Colleges Table</title>
+    <link rel="stylesheet" href="../../css/style.css" />
+  </head>
+  <body>
+    <form method="post" action="../../php/php_Search/college_searchData/college_selectAllQuery.php">
+      <fieldset>
+        <legend>Display All Colleges</legend>
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+      </fieldset>
+    </form>
+    <br />
+    <br />
+    <form method="post" action="../../php/php_Search/college_searchData/college_selectLikeQuery.php">
+      <fieldset>
+        <legend>Display Colleges</legend>
+        <label>College Name Starts with</label>
+        <input type="text" name="sname" /> <br />
+        <br />
+        <input type="submit" value="Submit" />
+      </fieldset>
+    </form>
+
+    <br />
+    <br />
+
+    <a href='../../index.html'>Back to the Homepage</a>
+  </body>
+</html>

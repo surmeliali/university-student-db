@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<!-- Ali Surmeli -->
+<!--Insert Data HTML file-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Insert Data Into a Database</title>
+    <link rel="stylesheet" href="../../css/style.css" />
+  </head>
+  <body>
+    <form method="post" action="../../php/php_Insert/prof_insertData.php">
+      <fieldset  class="container">
+        <h1>Enter the information of the Professor:</h1>
+
+        <label>Professor ID</label>
+        <input type="number" name="Prof_ID" /> <br />
+        <label>Name</label>
+        <input type="text" name="Prof_Name" /> <br />
+        <label>Department</label>
+        <select name="Departmant">
+          <option>Computer Science</option>
+          <option>Physics</option>
+          <option>Art History</option>
+          <option>Marketing</option>
+        </select><br />
+        <br />
+        <label>College ID </label>
+        <input type="number" name="College_ID" /> <br />
+        <br />
+        <br />
+        <button id="submit" > SUBMIT </button>
+      </fieldset>
+    </form>
+    <br />
+    <a href="../../index.html">Back to the homepage</a>
+  </body>
+</html>
+

@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<!--Ali Surmeli-->
+<!--Update a Record in Student Table-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Search a Student Record in a Table</title>
+    <link rel="stylesheet" href="../../css/style.css" />
+  </head>
+  <body>
+    <form method="post" action="../../php/php_Search/stud_searchData/stud_selectAllQuery.php">
+      <fieldset class="container">
+        <legend>Display All Students</legend>
+        <br />
+        <br />
+        <button id="submit" > SUBMIT </button>
+      </fieldset>
+    </form>
+    <br />
+    <br />
+    <form method="post" action="../../php/php_Search/stud_searchData/stud_selectLikeQuery.php">
+      <fieldset class="container">
+        <legend>Display Students whose name starts with</legend>
+        <label>Student Name Starts with</label>
+        <input type="text" name="Student_Name" /> <br />
+        <br />
+        <button id="submit" > SUBMIT </button>
+      </fieldset>
+    </form>
+
+    <br />
+    <br />
+    <form method="post" action="../../php/php_Search/stud_searchData/stud_selectWhereQuery.php">
+      <fieldset class="container">
+        <legend>Display Students From a Specific Program</legend>
+        <label>Program Name</label> 
+        <select name="ProgramofStudy">
+          <option>Data Analytics</option>
+          <option>Computer Engineering</option>
+          <option>Accounting</option>
+          <option>Marketing</option>
+          <option>Art History</option>
+          <option>Theatre</option>
+
+        </select><br /> <br />
+        <br />
+        <button id="submit" > SUBMIT </button>
+      </fieldset>
+    </form>
+    <a href='../../index.html'>Back to the Homepage</a>
+  </body>
+</html>

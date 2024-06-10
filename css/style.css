@@ -1,0 +1,149 @@
+﻿/*Ali Surmeli STUDENT - COOP DATABASE */
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+  }
+
+/* Style tab links */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 18px 10px;
+    font-size: 20px;
+    width: 24%;
+  }
+
+
+
+/* Tab lerin üzerine gelince renk değiştirilmesini sağlıyor */
+.tablink:hover {
+    background-color: #777;
+  }
+
+
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  
+.tablink {
+    border-bottom:0px solid #ddd;
+    margin: 25px 0 0;
+}
+
+.tablink a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+.page_open {
+    color: #fff;
+    margin: 25px 0 0;
+    text-decoration: none;
+    padding: 18px 10px;
+    margin-left:20px;
+
+  }
+
+.page_insert {
+    color: #fff;
+    text-decoration: none;
+  }
+
+.page_update {
+    color: #fff;
+    text-decoration: none;
+  }
+.page_delete {
+    color: #fff;
+    text-decoration: none;
+  }
+
+.page_search {
+    color: #fff;
+    text-decoration: none;
+  }
+
+.container {
+    color: #fff;
+    text-decoration: none;
+  }
+
+.clear {
+	clear:all;
+}
+
+
+
+
+.container label {
+    display:block;
+    margin-bottom:10px;
+}
+.container input {
+    padding:10px;
+    width: 50%;
+    margin-bottom: 1em;
+}
+.container button {
+    margin: 2em 0;
+    padding: 1em 4em;
+    display:block;
+}
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+#instructor {
+    padding:1em;
+    background-color:#fff;
+    margin: 1em 0;
+}
+
+
+/*--Background rengi için--*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #25c481, #25b7c4);
+  font-family: 'Roboto', sans-serif;
+}
+section{
+  margin: 20px;
+}
+
+/* Footer */
+.made-with-love {
+    margin-top: 400px;
+    padding: 10px;
+    clear: left;
+    text-align: center;
+    font-size: 20px;
+    font-family: arial;
+    color: #fff;
+  }
+  .made-with-love i {
+    font-style: normal;
+    color: #F50057;
+    font-size: 14px;
+    position: relative;
+    top: 2px;
+  }
+  .made-with-love a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .made-with-love a:hover {
+    text-decoration: underline;
+  }

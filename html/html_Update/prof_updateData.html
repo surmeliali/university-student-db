@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<!--Ali Surmeli-->
+<!--Update Professor Data HTML file-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Update/Change Data in a Database</title>
+    <link rel="stylesheet" href="../../css/style.css" />
+  </head>
+  <body>
+    <form method="post" action="../../php/php_Update//prof_updateData.php">
+      <fieldset class="container">
+        <legend>Enter the information of the Professor:</legend>
+
+        <label>Professor ID</label><input type="number" name="Prof_ID" /> <br />
+        <br />
+        <p>Change the Department to:</p>
+        <select name="Departmant">
+          <option>Computer Science</option>
+          <option>Physics</option>
+          <option>Art History</option>
+          <option>Marketing</option>
+        </select><br />
+        <br />
+        <br />
+        <button id="submit" > SUBMIT </button>
+      </fieldset>
+    </form>
+    <br />
+    <a href="../../index.html">Back to the homepage</a>
+  </body>
+</html>
+
